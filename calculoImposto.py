@@ -2,14 +2,14 @@
 def transformN(real):
     return float(real.replace(',', '.'))
 
-n1 = str(input("Type here your name: "))
+n1 = str(input("Enter here your name: "))
 
 def checkIfValueIsNumber():
     while True:
         try:
 
-            g1 = transformN(str(input("Type here you gains per month: ")))
-            t1 = transformN(str(input("Type here how many months did you worked: ")))
+            g1 = transformN(str(input("Enter here you gains per month: ")))
+            t1 = transformN(str(input("Enter here how many months did you worked: ")))
             b1 = (g1*t1)
 
             if g1 <= 1903.98:
